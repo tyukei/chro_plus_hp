@@ -15,9 +15,9 @@ jobs:
         - name: FTP-Deploy-Action
           uses: SamKirkland/FTP-Deploy-Action@4.2.0
           with:
-              server: ${{ secrets.PROD_SERVER }}        # FTPのサーバーアドレス
-              username: ${{ secrets.PROD_USERNAME }}    # FTPのユーザー名名
-              password: ${{ secrets.PROD_PASSWORD }}    # FTPのパスワード
-              local-dir: ./src/                         # アップロードしたいファイルのパス、この場合srcディレクトリ内をアップロード対象としている
+              server: ${{ env.PROD_SERVER }}        # FTPのサーバーアドレス
+              username: ${{ env.PROD_USERNAME }}    # FTPのユーザー名名
+              password: ${{ env.PROD_PASSWORD }}    # FTPのパスワード
+              local-dir: ./production/                         # アップロードしたいファイルのパス、この場合srcディレクトリ内をアップロード対象としている
               server-dir: /public_html/   # アップロード先のリモートパス
 
