@@ -6,8 +6,7 @@ Homepage for CHRO_PLUS
 # File Path
 
 - .github: github action files
-- production: if you want to upload files to ftp server, you can use this folder
-- stage: if you want to upload files to github page, you can use this folder
+- production: if you want to upload files to ftp server and github page, you can use this folder
 - work/generate-ai: theses files are made by gamma which is generate ai web site tool
 - work/scratch: theses files are made by hand coding inspired by generate-ai files
 
@@ -28,8 +27,7 @@ Homepage for CHRO_PLUS
 
 # ファイルパスについて
 - .github: GitHub Actionsのファイルが格納されているフォルダ
-- production: FTPサーバにアップロードするファイルをこのフォルダに入れる
-- stage: GitHub Pagesにアップロードするファイルをこのフォルダに入れる
+- production: FTPサーバやgithubpageにアップロードするファイルをこのフォルダに入れる
 - work/generate-ai: GammaというAIウェブサイトツールで生成されたファイル
 - work/scratch: 手動でコーディングしたファイル、generate-ai のファイルにインスパイアされて作成
 
