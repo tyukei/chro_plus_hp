@@ -1,7 +1,7 @@
 # CHRO_PLUS_HP
 Homepage for CHRO_PLUS
 - production: https://chroplus.xyz/
-- stage: https://tyukei.github.io/chro_plus_hp/
+- stage: https://tyukei.github.io/chro_plus_hp/production/index.html
 
 # File Path
 
@@ -23,7 +23,7 @@ Homepage for CHRO_PLUS
 # CHRO_PLUS_HP
 Homepage for CHRO_PLUS
 - production: https://chroplus.xyz/
-- stage: https://tyukei.github.io/chro_plus_hp/
+- stage: https://tyukei.github.io/chro_plus_hp/production/index.html
 
 # ファイルパスについて
 - .github: GitHub Actionsのファイルが格納されているフォルダ
