@@ -18,6 +18,6 @@ jobs:
               server: ${{ secrets.PROD_SERVER }}        # FTPのサーバーアドレス
               username: ${{ secrets.PROD_USERNAME }}    # FTPのユーザー名名
               password: ${{ secrets.PROD_PASSWORD }}    # FTPのパスワード
-              local-dir: ./src/                         # アップロードしたいファイルのパス、この場合srcディレクトリ内をアップロード対象としている
+              local-dir: ./production/                         # アップロードしたいファイルのパス、この場合srcディレクトリ内をアップロード対象としている
               server-dir: /public_html/   # アップロード先のリモートパス
 
