@@ -13,11 +13,11 @@ jobs:
     steps:
         - uses: actions/checkout@v2   # チェックアウトアクション（https://github.com/actions/checkout）
         - name: FTP-Deploy-Action
-            uses: SamKirkland/FTP-Deploy-Action@4.2.0   # FTPアップロードアクション（https://github.com/SamKirkland/FTP-Deploy-Action）
-            with:
-                server: ${{ secrets.PROD_SERVER }}        # FTPのサーバーアドレス
-                username: ${{ secrets.PROD_USERNAME }}    # FTPのユーザー名名
-                password: ${{ secrets.PROD_PASSWORD }}    # FTPのパスワード
-                local-dir: ./src/                         # アップロードしたいファイルのパス、この場合srcディレクトリ内をアップロード対象としている
-                server-dir: /public_html/   # アップロード先のリモートパス
+          uses: SamKirkland/FTP-Deploy-Action@4.2.0
+          with:
+              server: ${{ secrets.PROD_SERVER }}        # FTPのサーバーアドレス
+              username: ${{ secrets.PROD_USERNAME }}    # FTPのユーザー名名
+              password: ${{ secrets.PROD_PASSWORD }}    # FTPのパスワード
+              local-dir: ./src/                         # アップロードしたいファイルのパス、この場合srcディレクトリ内をアップロード対象としている
+              server-dir: /public_html/   # アップロード先のリモートパス
 
