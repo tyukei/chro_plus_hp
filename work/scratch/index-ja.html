@@ -1,192 +1,144 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CHRO+ ホームページ</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f4f4f9;
-        }
-        header {
-            background: linear-gradient(90deg, #007BFF, #6C63FF);
-            color: #fff;
-            padding: 3rem 0;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 3rem;
-            margin-bottom: 0.5rem;
-            font-weight: bold;
-            letter-spacing: 1px;
-        }
-        header p {
-            font-size: 1.4rem;
-            margin: 0;
-            font-style: italic;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #333;
-            padding: 1rem 0;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        nav a {
-            color: #fff;
-            margin: 0 1.5rem;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
-        nav a:hover {
-            color: #FFD700;
-        }
-        section {
-            padding: 4rem 2rem;
-            margin: auto;
-            max-width: 1200px;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
-            margin-bottom: 2rem;
-        }
-        section h2 {
-            font-size: 2.5rem;
-            color: #007BFF;
-            text-align: center;
-            margin-bottom: 1rem;
-        }
-        section img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            margin: 1rem 0;
-        }
-        section ul {
-            list-style: none;
-            padding: 0;
-        }
-        section ul li {
-            padding: 0.5rem 0;
-            font-size: 1.2rem;
-            line-height: 1.8;
-            position: relative;
-            padding-left: 1.5rem;
-        }
-        section ul li::before {
-            content: '\2022';
-            position: absolute;
-            left: 0;
-            color: #007BFF;
-            font-weight: bold;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 2rem 0;
-            font-size: 1rem;
-            margin-top: 2rem;
-        }
-        footer p {
-            margin: 0;
-        }
-        button {
-            background: #007BFF;
-            color: #fff;
-            border: none;
-            padding: 0.75rem 1.5rem;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-        button:hover {
-            background: #0056b3;
-        }
-        form input, form textarea {
-            width: 100%;
-            padding: 0.75rem;
-            margin-bottom: 1rem;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 1rem;
-        }
-    </style>
-</head>
-<body>
-    <header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="CHRO+ は画期的なデバイスとサービスプランで次世代の臨床試験を革新します。">
+        <title>CHRO+ - 次世代の臨床試験を革新</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+
+        <!-- 言語切り替え -->
+        <div id="languageSwitcher" class="language-switcher" style="display: none;">
+            <select id="languageSelect">
+                <option value="ja">日本語</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+        
+        <!-- ハンバーガーメニュー -->
+        <div id="toggleButton" class="menu-icon">
+            &#9776; <!-- ハンバーガーアイコン -->
+        </div>
+    
+        <!-- トップバー -->
+        <nav class="top-bar" id="topBar">
+            <ul class="horizontal-bar">
+                <li><a href="#intro">ホーム</a></li>
+                <li><a href="#xhro">デバイス</a></li>
+                <li><a href="#market">市場</a></li>
+                <li><a href="#team">チーム</a></li>
+                <li><a href="#vision">ビジョン</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>  
+
+        <!-- ヘッダー -->
+        <header>
+            <img src="./img/Title.png" alt="デバイス画像" width="100%">
+        </header>
+    
+    <!-- セクション: 概要 -->
+    <section id="intro">
         <h1>CHRO+</h1>
-        <p>未来を切り拓く医療グレードのウェアラブルデバイス</p>
-    </header>
-
-    <nav>
-        <a href="#overview">概要</a>
-        <a href="#products">製品</a>
-        <a href="#services">サービス</a>
-        <a href="#team">チーム</a>
-        <a href="#contact">お問い合わせ</a>
-    </nav>
-
-    <section id="overview">
-        <h2>概要</h2>
-        <p>CHRO+は、臨床試験の効率を劇的に向上させる医療グレードのウェアラブルデバイスを提供します。このデバイスは7日間連続のモニタリングをサポートし、自然な環境で自由に動くことが可能です。</p>
-        <img src="img/1_title.png" alt="概要の画像">
-        <ul>
-            <li>市場規模 (TAM): 1845億ドル (2030年予測)</li>
-            <li>成長率: 年平均成長率19.5% (2023-2030)</li>
-            <li>目標: 分散型臨床試験 (DCT) のリーダーシップを確立</li>
-        </ul>
+        <h2>次世代の臨床試験を革新</h2>
+        <p>CHRO+ [ˈkroʊ plʌs] は、自宅での連続モニタリングが可能な医療グレードのウェアラブルデバイスを提供します。首の後ろに快適に装着でき、脳波や心拍数などを記録します。この技術により、患者は自宅から参加でき、質の高い生体データを提供することで医療研究の加速を実現します。</p>
     </section>
 
-    <section id="products">
-        <h2>製品</h2>
-        <p>私たちのウェアラブルデバイスは以下の特徴を備えています:</p>
-        <img src="img/4_product.png" alt="製品の画像">
-        <ul>
-            <li>7日間連続データ記録</li>
-            <li>多モーダルデータ取得 (EEG, ECG, バイオインピーダンスなど)</li>
-            <li>快適で長期間の装着が可能</li>
-            <li>自由な動作を妨げない設計</li>
-        </ul>
+    <!-- セクション: デバイスとサービスプラン -->
+    <section id="xhro">
+        <h1>デバイスとサービスプラン</h1>
+        <img src="./img/Demo.png" alt="デバイス画像" width="100%">
+        <div class="device">
+            <h2>デバイス</h2>
+            <img src="./img/Device-ja.png" alt="デバイス画像" width="100%">
+            <p>従来の臨床試験機器はかさばり、クリニックに限定された短時間のモニタリングが主流でした。CHRO+ は7日間の連続モニタリングを可能にし、参加者が日常生活を送りながら高品質なデータを収集できます。多機能バイタルサイン取得と快適性を兼ね備えたデバイスにより、柔軟で患者に優しい研究を実現します。</p>
+        </div>
+
+        <div class="service-plan">
+            <h2>サービスプラン</h2>
+            <img src="./img/Service-ja.png" alt="サービスプラン画像" width="100%">
+            <p>サービスプランには、デバイスのセットアップやトレーニングからデータ管理、分析まで必要なすべてが含まれています。経験豊富なチームが継続的なサポートとガイダンスを提供し、研究プロジェクトの成功を支援します。</p>
+        </div>
     </section>
 
-    <section id="services">
-        <h2>サービス</h2>
-        <p>CHRO+は包括的なデータ収集と解析サービスを提供します:</p>
-        <img src="img/5_service.png" alt="サービスの画像">
-        <ul>
-            <li>データ収集から解析までのエンドツーエンドソリューション</li>
-            <li>分散型臨床試験設計のサポート</li>
-            <li>正確なデータレポート作成</li>
-        </ul>
+    <!-- セクション: 市場と可能性 -->
+    <section id="market">
+        <h1>市場と可能性</h1>
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="big-number">152B</div>
+                <h3>グローバル市場規模</h3>
+                <p>製薬およびバイオテクノロジーを支援するCRO市場は2028年までに1,520億ドルに達すると予測されています。DCT（分散型臨床試験）はこの市場内で160億ドル規模のセグメントとして成長しています。</p>    
+            </div>
+            <div class="grid-item">
+                <div class="big-number">210M</div>
+                <h3>年間成長率</h3>
+                <p>CHRO+ は、10社のCROと提携して10件の試験を実施することで、2,100万ドルの市場機会を目指しています。</p>    
+            </div>
+        </div>
     </section>
 
+    <!-- セクション: チーム -->
     <section id="team">
-        <h2>チーム</h2>
-        <p>私たちのチームは、OISTや医療業界で豊富な経験を持つ専門家で構成されています:</p>
-        <img src="img/8_team.png" alt="チームの画像">
-        <ul>
-            <li>Haruo Mizutani (Ph.D. at UTokyo in Neuroscience& Physiology)</li>
-            <li>Sutashu (Ph.D. student at OIST in Machine Learning)</li>
-            <li>Takuya Abe (UX/UI Designer,Art Director,PdM)</li>
-        </ul>
+        <h1>チーム</h1>
+        <h2>チームメンバ</h2>
+        <div class="team-member">
+            <img src="./img/mizu.png" alt="Haruo Mizutani" width="150">
+            <p><strong>水谷治央</strong></p>
+            <p>チームリーダ</p>
+        </div>
+        <div class="team-member">
+            <img src="./img/sta.png" alt="Sutashu" width="150">
+            <p><strong>朝永スタッシュ</strong></p>
+            <p>データサイエンティスト</p>
+        </div>
+        <div class="team-member">
+            <img src="./img/abe.png" alt="Takuya Abe" width="150">
+            <p><strong>阿部琢哉</strong></p>
+            <p>サービスデザイナ</p>
+        </div>
+        <div class="team-member">
+            <img src="./img/matsu.png" alt="Katsuhito Matsushima" width="150">
+            <p><strong>松嶋克仁</strong></p>
+            <p>フルスタックエンジニア</p>
+        </div>
+        <div class="team-member">
+            <img src="./img/naka.png" alt="Keita Nakata" width="150">
+            <p><strong>中田継太</strong></p>
+            <p>データエンジニア</p>
+        </div>
+        <h2>求人</h2>
+        <div class="team-member">
+            <p><strong>事業開発担当</strong></p>
+            <p>医療分野でのパートナーシップ構築および企業間取引の豊富な経験を持つ方</p>
+        </div>
+        <div class="team-member">
+            <p><strong>臨床専門家</strong></p>
+            <p>臨床試験および臨床研究を監督するための医学博士（M.D.）資格を持つ方</p>
+        </div>
     </section>
 
+    <!-- セクション: ビジョン -->
+    <section id="vision">
+        <h1>ビジョン</h1>
+        <img src="./img/Vision-ja.png" alt="ビジョン画像" width="100%">
+        <p>テクノロジーを活用し、医療研究の質と速度を向上させる未来を目指します。</p>
+    </section>
+
+    <!-- セクション: お問い合わせ -->
     <section id="contact">
-        <h2>お問い合わせ</h2>
-        <p>詳細情報やパートナーシップについてのお問い合わせは、以下のフォームをご利用ください:</p>
-        <!-- email info -->
-         xのリンク
+        <h1>お問い合わせ</h1>
+        <p>ご質問やご要望がございましたら、以下のフォームからお問い合わせください。</p>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLuNb6XW_lUA0YKwwI6ph2S5FMnAgfRKzaWxLSGQwmAs0cjQ/viewform?embedded=true" width="100%" height="800"></iframe>
     </section>
 
+    <!-- フッター -->
     <footer>
-        <p>&copy; 2024 CHRO+. All rights reserved.</p>
+        <p>&copy; 2024 CHRO+. 全著作権所有。</p>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
