@@ -1,157 +1,256 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="CHRO+ is innovating the next generation of clinical trials with its groundbreaking device and service plan.">
-        <title>CHRO+ - Innovating the Next Generation of Clinical Trials</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-    <div class="header-bg">
-        <div id="menuContainer">
-            <div id="toggleButton" class="menu-icon">
-                <image src="./img/logo.png" alt="Menu Icon" width="50">
-            </div>
+<html lang="ja" data-content="index">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="keywords">
+    <meta name="description" content="Medical-Graded Wearable + Data Analysis Platforms to Support Next Generation Clinical Trials">
+    <meta property="og:title" content="CHRO+ - Innovating the Next Generation of Clinical Trials">
+    <meta property="og:description" content="Medical-Graded Wearable + Data Analysis Platforms to Support Next Generation Clinical Trials">
+    <meta property="og:url" content="https://chroplus.xyz">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="CHRO+ - Innovating the Next Generation of Clinical Trials">
+    <meta property="og:image" content="https://chroplus.xyz/assets/images/og-image.png">
+    <meta property="fb:app_id" content="">
+    <meta name="twitter:title" content="CHRO+ - Innovating the Next Generation of Clinical Trials">
+    <meta name="twitter:description" content="Medical-Graded Wearable + Data Analysis Platforms to Support Next Generation Clinical Trials">
+    <meta name="twitter:url" content="https://chroplus.xyz">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://chroplus.xyz/assets/images/og-image.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5c5c5c">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/assets/images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="https://chroplus.xyz">
+    <title>CHRO+ - Innovating the Next Generation of Clinical Trials</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&amp;family=Rajdhani:wght@300;500&amp;display=swap" rel="stylesheet">
+    <script src="/assets/script_libs/jquery.js" type="text/javascript"></script>
+    <script src="/assets/script_libs/jquery.easing.js" type="text/javascript"></script>
+    <script src="/js/core.min.js" type="text/javascript"></script>
+  </head>
+
+  <body class="index"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPG65VD2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div class="header">
+      <div class="mw__wrap"><a class="logo_chro-plus" href="#"><svg width="136" height="55" viewBox="0 0 136 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.0074 44.5797H10.5802C8.56964 44.5797 6.9546 43.9699 5.73507 42.7504C4.5485 41.5309 3.95522 39.8994 3.95522 37.8558V19.5135C3.95522 17.47 4.5485 15.8384 5.73507 14.6189C6.9546 13.3994 8.56964 12.7896 10.5802 12.7896H17.0074C19.018 12.7896 20.6166 13.3994 21.8031 14.6189C23.0227 15.8384 23.6324 17.47 23.6324 19.5135V21.9855C23.6324 22.2822 23.5006 22.4305 23.2369 22.4305H22.5448C22.2811 22.4305 22.1492 22.2822 22.1492 21.9855V19.5629C22.1492 17.882 21.7043 16.5636 20.8143 15.6077C19.9244 14.6519 18.6555 14.174 17.0074 14.174H10.5802C8.9322 14.174 7.66324 14.6519 6.77331 15.6077C5.88339 16.5636 5.43843 17.882 5.43843 19.5629V37.8064C5.43843 39.4874 5.88339 40.8058 6.77331 41.7616C7.66324 42.7175 8.9322 43.1954 10.5802 43.1954H17.0074C18.6555 43.1954 19.9244 42.7175 20.8143 41.7616C21.7043 40.8058 22.1492 39.4874 22.1492 37.8064V35.3838C22.1492 35.0872 22.2811 34.9389 22.5448 34.9389H23.2369C23.5006 34.9389 23.6324 35.0872 23.6324 35.3838V37.8558C23.6324 39.8994 23.0227 41.5309 21.8031 42.7504C20.6166 43.9699 19.018 44.5797 17.0074 44.5797ZM31.8874 44.5797H31.1953C30.9316 44.5797 30.7997 44.4314 30.7997 44.1347V13.2346C30.7997 12.938 30.9316 12.7896 31.1953 12.7896H31.8874C32.1511 12.7896 32.2829 12.938 32.2829 13.2346V27.2756C32.2829 27.5393 32.4313 27.6711 32.7279 27.6711H48.0544C48.351 27.6711 48.4993 27.5393 48.4993 27.2756V13.2346C48.4993 12.938 48.6312 12.7896 48.8949 12.7896H49.587C49.8507 12.7896 49.9825 12.938 49.9825 13.2346V44.1347C49.9825 44.4314 49.8507 44.5797 49.587 44.5797H48.8949C48.6312 44.5797 48.4993 44.4314 48.4993 44.1347V29.451C48.4993 29.1873 48.351 29.0555 48.0544 29.0555H32.7279C32.4313 29.0555 32.2829 29.1873 32.2829 29.451V44.1347C32.2829 44.4314 32.1511 44.5797 31.8874 44.5797ZM59.4928 44.5797H58.8007C58.537 44.5797 58.4052 44.4314 58.4052 44.1347V13.2346C58.4052 12.938 58.537 12.7896 58.8007 12.7896H69.9247C71.9353 12.7896 73.5339 13.3994 74.7204 14.6189C75.94 15.8384 76.5497 17.47 76.5497 19.5135V24.4575C76.5497 26.3033 76.0553 27.8195 75.0665 29.006C74.0777 30.1596 72.7428 30.8518 71.0619 31.0825V31.2803L77.143 44.1347C77.3078 44.4314 77.2419 44.5797 76.9452 44.5797H76.0553C75.7916 44.5797 75.5774 44.4314 75.4126 44.1347L69.3809 31.1814H60.3333C60.0367 31.1814 59.8884 31.3132 59.8884 31.5769V44.1347C59.8884 44.4314 59.7565 44.5797 59.4928 44.5797ZM60.3333 29.7971H69.9247C71.5727 29.7971 72.8417 29.3192 73.7316 28.3633C74.6216 27.4075 75.0665 26.0891 75.0665 24.4081V19.5629C75.0665 17.882 74.6216 16.5636 73.7316 15.6077C72.8417 14.6519 71.5727 14.174 69.9247 14.174H60.3333C60.0367 14.174 59.8884 14.3058 59.8884 14.5695V29.4016C59.8884 29.6652 60.0367 29.7971 60.3333 29.7971ZM90.2582 43.1954H96.4382C98.0862 43.1954 99.3552 42.7175 100.245 41.7616C101.135 40.8058 101.58 39.4874 101.58 37.8064V19.5629C101.58 17.882 101.135 16.5636 100.245 15.6077C99.3552 14.6519 98.0862 14.174 96.4382 14.174H90.2582C88.6102 14.174 87.3412 14.6519 86.4513 15.6077C85.5614 16.5636 85.1164 17.882 85.1164 19.5629V37.8064C85.1164 39.4874 85.5614 40.8058 86.4513 41.7616C87.3412 42.7175 88.6102 43.1954 90.2582 43.1954ZM96.4382 44.5797H90.2582C88.2476 44.5797 86.6326 43.9699 85.413 42.7504C84.2265 41.5309 83.6332 39.8994 83.6332 37.8558V19.5135C83.6332 17.47 84.2265 15.8384 85.413 14.6189C86.6326 13.3994 88.2476 12.7896 90.2582 12.7896H96.4382C98.4488 12.7896 100.047 13.3994 101.234 14.6189C102.453 15.8384 103.063 17.47 103.063 19.5135V37.8558C103.063 39.8994 102.453 41.5309 101.234 42.7504C100.047 43.9699 98.4488 44.5797 96.4382 44.5797Z" fill="black" />
+            <path d="M123 22.4375H131.009C131.306 22.4375 131.454 22.5694 131.454 22.833V23.4263C131.454 23.69 131.306 23.8218 131.009 23.8218H123V31.8806C123 32.1772 122.868 32.3256 122.604 32.3256H121.912C121.648 32.3256 121.517 32.1772 121.517 31.8806V23.8218H113.507C113.211 23.8218 113.062 23.69 113.062 23.4263V22.833C113.062 22.5694 113.211 22.4375 113.507 22.4375H121.517V14.3788C121.517 14.0821 121.648 13.9338 121.912 13.9338H122.604C122.868 13.9338 123 14.0821 123 14.3788V22.4375Z" fill="black" />
+          </svg>
+        </a></div>
+      <nav class="navigation" id="navigation">
+        <div class="nav__item_wrap drawer">
+          <ul class="nav__items">
+            <li class="nav__item"><a href="#about">CHRO+</a></li>
+            <li class="nav__item"><a href="#device">Device</a></li>
+            <li class="nav__item"><a href="#solution">Service</a></li>
+            <li class="nav__item"><a href="#team">Team</a></li>
+            <li class="nav__item"><a href="#mission">Mission</a></li>
+            <li class="nav__item"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfLuNb6XW_lUA0YKwwI6ph2S5FMnAgfRKzaWxLSGQwmAs0cjQ/viewform" target="_blank">Contact<span class="icon">↗</span></a></li>
+          </ul>
         </div>
+        <div class="btn_hamburger__wrap"><a class="btn_hamburger" id="navBtn"><span></span><span></span><span></span></a></div>
+      </nav>
     </div>
-        
-        <!-- トップバー -->
-        <nav class="top-bar" id="topBar">
-            <ul class="horizontal-bar">
-                <li><a href="#intro">Home</a></li>
-                <li><a href="#xhro">Device</a></li>
-                <li><a href="#market">Market</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#vision">Vision</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <div class="contents__wrap">
+      <div class="hero" id="hero">
+        <div class="mw__wrap">
+          <h1 class="main_symbols"><svg width="463" height="189" viewBox="0 0 463 189" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M58.2823 153.121H36.257C29.3671 153.121 23.8325 151.031 19.6533 146.852C15.5871 142.673 13.554 137.082 13.554 130.079V67.2223C13.554 60.2194 15.5871 54.6284 19.6533 50.4492C23.8325 46.27 29.3671 44.1805 36.257 44.1805H58.2823C65.1723 44.1805 70.6504 46.27 74.7166 50.4492C78.8957 54.6284 80.9853 60.2194 80.9853 67.2223V75.6936C80.9853 76.7101 80.5335 77.2184 79.6299 77.2184H77.2579C76.3543 77.2184 75.9025 76.7101 75.9025 75.6936V67.3917C75.9025 61.6313 74.3777 57.1133 71.3281 53.8377C68.2784 50.5622 63.9298 48.9244 58.2823 48.9244H36.257C30.6095 48.9244 26.2609 50.5622 23.2113 53.8377C20.1616 57.1133 18.6368 61.6313 18.6368 67.3917V129.91C18.6368 135.67 20.1616 140.188 23.2113 143.464C26.2609 146.739 30.6095 148.377 36.257 148.377H58.2823C63.9298 148.377 68.2784 146.739 71.3281 143.464C74.3777 140.188 75.9025 135.67 75.9025 129.91V121.608C75.9025 120.591 76.3543 120.083 77.2579 120.083H79.6299C80.5335 120.083 80.9853 120.591 80.9853 121.608V130.079C80.9853 137.082 78.8957 142.673 74.7166 146.852C70.6504 151.031 65.1723 153.121 58.2823 153.121ZM109.274 153.121H106.902C105.998 153.121 105.547 152.613 105.547 151.596V45.7053C105.547 44.6887 105.998 44.1805 106.902 44.1805H109.274C110.178 44.1805 110.629 44.6887 110.629 45.7053V93.8221C110.629 94.7257 111.138 95.1775 112.154 95.1775H164.676C165.693 95.1775 166.201 94.7257 166.201 93.8221V45.7053C166.201 44.6887 166.653 44.1805 167.556 44.1805H169.928C170.832 44.1805 171.284 44.6887 171.284 45.7053V151.596C171.284 152.613 170.832 153.121 169.928 153.121H167.556C166.653 153.121 166.201 152.613 166.201 151.596V101.277C166.201 100.373 165.693 99.9214 164.676 99.9214H112.154C111.138 99.9214 110.629 100.373 110.629 101.277V151.596C110.629 152.613 110.178 153.121 109.274 153.121ZM203.874 153.121H201.502C200.599 153.121 200.147 152.613 200.147 151.596V45.7053C200.147 44.6887 200.599 44.1805 201.502 44.1805H239.623C246.513 44.1805 251.991 46.27 256.057 50.4492C260.236 54.6284 262.326 60.2194 262.326 67.2223V84.1648C262.326 90.4901 260.632 95.6858 257.243 99.752C253.855 103.705 249.28 106.077 243.52 106.868V107.546L264.359 151.596C264.924 152.613 264.698 153.121 263.681 153.121H260.632C259.728 153.121 258.994 152.613 258.429 151.596L237.759 107.207H206.754C205.738 107.207 205.23 107.658 205.23 108.562V151.596C205.23 152.613 204.778 153.121 203.874 153.121ZM206.754 102.463H239.623C245.27 102.463 249.619 100.825 252.669 97.5494C255.718 94.2739 257.243 89.7559 257.243 83.9954V67.3917C257.243 61.6313 255.718 57.1133 252.669 53.8377C249.619 50.5622 245.27 48.9244 239.623 48.9244H206.754C205.738 48.9244 205.23 49.3762 205.23 50.2798V101.107C205.23 102.011 205.738 102.463 206.754 102.463ZM309.303 148.377H330.481C336.129 148.377 340.477 146.739 343.527 143.464C346.577 140.188 348.101 135.67 348.101 129.91V67.3917C348.101 61.6313 346.577 57.1133 343.527 53.8377C340.477 50.5622 336.129 48.9244 330.481 48.9244H309.303C303.656 48.9244 299.307 50.5622 296.257 53.8377C293.208 57.1133 291.683 61.6313 291.683 67.3917V129.91C291.683 135.67 293.208 140.188 296.257 143.464C299.307 146.739 303.656 148.377 309.303 148.377ZM330.481 153.121H309.303C302.413 153.121 296.879 151.031 292.699 146.852C288.633 142.673 286.6 137.082 286.6 130.079V67.2223C286.6 60.2194 288.633 54.6284 292.699 50.4492C296.879 46.27 302.413 44.1805 309.303 44.1805H330.481C337.371 44.1805 342.849 46.27 346.916 50.4492C351.095 54.6284 353.184 60.2194 353.184 67.2223V130.079C353.184 137.082 351.095 142.673 346.916 146.852C342.849 151.031 337.371 153.121 330.481 153.121Z" fill="white" />
+              <path d="M421.504 77.2425H448.951C449.968 77.2425 450.476 77.6943 450.476 78.5979V80.631C450.476 81.5346 449.968 81.9864 448.951 81.9864H421.504V109.603C421.504 110.619 421.052 111.128 420.149 111.128H417.777C416.873 111.128 416.421 110.619 416.421 109.603V81.9864H388.975C387.958 81.9864 387.45 81.5346 387.45 80.631V78.5979C387.45 77.6943 387.958 77.2425 388.975 77.2425H416.421V49.6262C416.421 48.6096 416.873 48.1014 417.777 48.1014H420.149C421.052 48.1014 421.504 48.6096 421.504 49.6262V77.2425Z" fill="white" />
+            </svg>
+          </h1>
+          <p class="header__caption lang_en">Medical-Graded Wearable + Data Analysis Platforms<br class="active_pc"> to Support Next Generation Clinical Trials</p>
+          <p class="header__caption lang_jp">次世代の臨床試験を支える<br class="active_sp">メディカルグレードドデバイス + データ解析プラットフォーム</p>
+        </div>
+      </div>
+      <section class="about_chro" id="about">
+        <div class="mw__wrap">
+          <h2 class="section__head"><span class="main">CHRO+</span><span class="sub">[ˈkroʊ plʌs] </span></h2>
+          <p class="section__text lang_en">We've created a medical-grade wearable device [XHRO] designed for continuous, at-home monitoring in clinical trials. Think of it as a professional, medical-grade ‘Apple Watch’ , but even better, capturing brainwave, heart rate and more—comfortably worn at the back of the neck. This technology will transform how we collect high-quality biological data and accelerate the pace of medical clinical research.</p>
+          <p class="section__text lang_jp">CHRO+ は、医療グレードのデータを連続取得できるウェアラブルデバイス「XHRO」と、データ解析を可能にする独自サービスを提供しています。首の後ろに装着するウェアラブルデバイスで、心電図・脳波などの重要な生体データを長期間、快適に測定できます。CHRO+ のテクノロジーが「在宅での連続測定」と「質の高い生体データ」を提供することで医療研究の加速を実現します。</p>
+        </div>
+      </section>
+      <section class="get-starting bg_gray" id="device">
+        <div class="mw__wrap">
+          <h2 class="section__head"><span class="main">XHRO</span><span class="sub">「7日間連続計測 × 高精度 × 在宅」で加速する臨床研究</span></h2>
+          <div class="fig_wrap">
+            <picture>
+              <source srcset="/assets/images/device_xhros_sp.png" media="(max-width: 768px)" type="image/png"><img src="/assets/images/device_xhros.png">
+            </picture>
+            <p class="note">Patent Number：WO/2024/090527, PCT/JP2023/038745</p>
+          </div>
+          <div class="fig_wrap">
+            <picture>
+              <source srcset="/assets/images/device_compare_sp.png" media="(max-width: 768px)" type="image/png"><img src="/assets/images/device_compare.png">
+            </picture>
+          </div>
+          <div class="inner__wrap">
+            <p class="section__text lang_en">Traditional clinical trial equipment is bulky and often limited to brief, clinic-bound monitoring sessions.<br>XHRO changes this by providing continuous monitoring for up to seven days, enabling participants to go about their normal lives while collecting high-quality data. Our device offers multimodal vital sign acquisition with exceptional comfort, empowering pharmaceutical companies to conduct more flexible and patient-friendly research without compromising data accuracy.</p>
+            <p class="section__text lang_jp">従来の臨床試験機器はかさばり、クリニックに限定された短時間のモニタリングが主流でした。<br>XHRO は7日間の連続モニタリングを可能にし、参加者が日常生活を送りながら高品質なデータを収集できます。マルチモーダル生体データ取得と快適性を兼ね備えたデバイスにより、柔軟で患者に優しい研究を実現します。</p>
+            <div class="link"><a href="https://xhro.org" target="_blank">More about XHRO</a></div>
+          </div>
+        </div>
+      </section>
+      <section class="get-starting" id="solution">
+        <div class="mw__wrap">
+          <h2 class="section__head"><span class="main">Service</span><span class="sub">包括的な DCTs サービスパッケージ</span></h2>
+          <div class="fig_wrap">
+            <picture>
+              <source srcset="/assets/images/service.png" media="(max-width: 768px)" type="image/png"><img src="/assets/images/service.png">
+            </picture>
+          </div>
+          <div class="inner__wrap">
+            <p class="section__text lang_en">The core service of CHRO+ is to provide "medical grade wearable device + application + data analysis report" in one package.</p>
+            <ul class="section__def lang_en">
+              <li><span class="strong">Medical grade wearable device:</span><span>Sophisticated hardware based on proprietary patented technology.</span></li>
+              <li><span class="strong">Application for real-time data collection:</span><span>Always monitoring the subject's condition through cloud integration.</span></li>
+              <li><span class="strong">Analysis reports:</span><span>Provide analysis reports of multi-vital data using dedicated algorithms.</span></li>
             </ul>
-        </nav>  
-
-    
-    <section id="intro">
-        <img src="./img/Title.png" alt="XHRO Device Image" width="100%">    
-        <h1>CHRO+</h1>
-        <h2>Innovating the Next Generation of Clinical Trials</h2>
-        <p>CHRO+ [ˈkroʊ plʌs] is transforming clinical trials with a medical-grade wearable device for continuous, at-home monitoring. Comfortable to wear at the back of the neck, it captures brainwaves, heart rate, and more. This technology empowers patients to participate from home, accelerating medical research by providing high-quality biological data.</p>
-        <h2>次世代の臨床試験を革新</h2>
-        <p>CHRO+ [ˈkroʊ plʌs] は、自宅での連続モニタリングが可能な医療グレードのウェアラブルデバイスを提供します。首の後ろに快適に装着でき、脳波や心拍数などを記録します。この技術により、患者は自宅から参加でき、質の高い生体データを提供することで医療研究の加速を実現します。</p>
-    </section>
-
-    <section id="xhro">
-        <h1>The Device and Service Plan</h1>
-        <img src="./img/Demo.png" alt="XHRO Device Image" width="100%">
-        <div class="device">
-            <h2>Device</h2>
-            <img src="./img/Device.png" alt="XHRO Device Image" width="100%">
-            <p>Traditional clinical trial equipment is bulky and often limited to brief, clinic-bound monitoring sessions. CHRO+ changes this by providing continuous monitoring for up to seven days, enabling participants to go about their normal lives while collecting high-quality data. Our device offers multimodal vital sign acquisition with exceptional comfort, empowering pharmaceutical companies to conduct more flexible and patient-friendly research without compromising data accuracy.</p>
-            <p>従来の臨床試験機器はかさばり、クリニックに限定された短時間のモニタリングが主流でした。CHRO+ は7日間の連続モニタリングを可能にし、参加者が日常生活を送りながら高品質なデータを収集できます。多機能バイタルサイン取得と快適性を兼ね備えたデバイスにより、柔軟で患者に優しい研究を実現します。</p>
+          </div>
+          <div class="inner__wrap">
+            <p class="section__text lang_jp">CHRO+ のサービスコアは「メディカルグレードウェアラブルデバイス + アプリケーション + データ解析レポート」を一括提供することです。</p>
+            <ul class="section__def lang_jp">
+              <li><span class="strong">メディカルグレードウェアラブルデバイス：</span><span>独自特許技術による洗練されたハードウェア</span></li>
+              <li><span class="strong">リアルタイムデータ収集のためのアプリケーション：</span><span>クラウド連携を通じて被験者の状態を常時把握</span></li>
+              <li><span class="strong">分析レポート：</span><span>専用アルゴリズムを使ったマルチバイタルデータの解析レポートを提供</span></li>
+            </ul>
+          </div>
+          <div class="fig_wrap">
+            <picture>
+              <source srcset="/assets/images/solution_fig01.png" media="(max-width: 768px)" type="image/png"><img src="/assets/images/solution_fig01.png">
+            </picture>
+            <p class="note">Proprietary Hardware + App</p>
+          </div>
+          <div class="fig_wrap">
+            <picture>
+              <source srcset="/assets/images/solution_fig02.png" media="(max-width: 768px)" type="image/png"><img src="/assets/images/solution_fig02.png">
+            </picture>
+            <p class="note">Analysis Report Example</p>
+          </div>
+          <div class="inner__wrap">
+            <p class="section__text lang_en">Our service plan includes everything you need to successfully run a clinical trial, from device setup and training to data management and analysis. Our team of experts provides ongoing support and guidance, ensuring the success of your research project.</p>
+            <p class="section__text lang_jp">サービスプランには、デバイスのセットアップやデータ管理、分析まで必要なすべてが含まれています。経験豊富なチームが継続的なサポートとガイダンスを提供し、研究プロジェクトの成功を支援します。</p>
+          </div>
         </div>
-
-        <div class="service-plan">
-            <h2>Service Plan</h2>
-            <img src="./img/Service.png" alt="Service Plan Image" width="100%">
-            <p>Our service plan includes everything you need to successfully run a clinical trial, from device setup and training to data management and analysis. Our team of experts provides ongoing support and guidance, ensuring the success of your research project.</p>
-            <p>サービスプランには、デバイスのセットアップやトレーニングからデータ管理、分析まで必要なすべてが含まれています。経験豊富なチームが継続的なサポートとガイダンスを提供し、研究プロジェクトの成功を支援します。</p>
-        </div>
-    </section>
-
-    <section id="market">
-        <h1>Market and Potential</h1>
-        <div class="grid-container">
-            <div class="grid-item">
-                <div class="big-number">
-                    152B
-                </div>
-                <h3>Global Market Size</h3>
-                <p>The global Contract Research Organization (CRO) market supporting pharma and biotech is set to reach $152 billion by 2028. Decentralized Clinical Trials (DCTs) are emerging as a $16 billion segment within this growing market.</p>    
-                <h3>グローバル市場規模</h3>
-                <p>製薬およびバイオテクノロジーを支援するCRO市場は2028年までに1,520億ドルに達すると予測されています。DCT（分散型臨床試験）はこの市場内で160億ドル規模のセグメントとして成長しています。</p>    
+      </section>
+      <section class="get-starting bg_gray" id="team">
+        <div class="mw__wrap">
+          <h2 class="section__head"><span class="main">Our Team</span><span class="sub">未来を実現するチーム</span></h2>
+          <div class="inner__wrap">
+            <p class="section__text lang_en">We are a team of engineers and scientists from multidisciplinary fields, combining expertise with the purpose of creating the digital health infrastructure of the future.</p>
+            <p class="section__text lang_jp">私たちは、未来のデジタルヘルス・インフラを創造することを目的に、専門知識を結集した多分野のエンジニアと科学者からなるチームです。</p>
+          </div>
+          <div class="items__wrap">
+            <div class="item__wrap">
+              <div class="item_img"><img src="/assets/images/t_haruo.png"></div>
+              <div class="item_text">
+                <div class="name"> Haruo Mizutani</div>
+                <div class="title">CEO&amp;TeamLead</div>
+                <div class="role"><span class="lang_en">Directing hardware development and business strategy /</span><span class="lang_jp"> ハードウェア開発と事業戦略のディレクション</span></div>
+              </div>
             </div>
-            <div class="grid-item">
-                <div class="big-number">
-                    210M
-                </div>
-                <h3>Annual Growth Rate</h3>
-                <p>CHRO+ is focused on a $210 million opportunity within the CRO market, aiming to secure $20 million by partnering with 10 CROs to run 10 trials each.</p>    
-                <h3>年間成長率</h3>
-                <p>CHRO+ は、10社のCROと提携して10件の試験を実施することで、2,100万ドルの市場機会を目指しています。</p>    
+            <div class="item__wrap">
+              <div class="item_img"><img src="/assets/images/t_sutashu.png"></div>
+              <div class="item_text">
+                <div class="name">Sutashu</div>
+                <div class="title">DataScientist</div>
+                <div class="role"><span class="lang_en">Responsible for developing core algorithms and data models /</span><span class="lang_jp">コアアルゴリズムとデータモデルの開発を担当</span></div>
+              </div>
             </div>
+            <div class="item__wrap">
+              <div class="item_img"><img src="/assets/images/t_takuya.png"></div>
+              <div class="item_text">
+                <div class="name">Takuya Abe</div>
+                <div class="title">ServiceDesigner</div>
+                <div class="role"><span class="lang_en">Responsible for service design and customer experience /</span><span class="lang_jp">サービスデザインとカスタマーエクスペリエンスを担当</span></div>
+              </div>
+            </div>
+            <dl class="item__wrap">
+              <div class="item_img"><img src="/assets/images/t_katsuhito.png"></div>
+              <div class="item_text">
+                <div class="name">Katsuhito Matsushima</div>
+                <div class="title">FullstackEngineer</div>
+                <div class="role"><span class="lang_en">Responsible for design and implementation of applications and service infrastructure /</span><span class="lang_jp">アプリケーションとサービス・インフラの設計と実装を担当</span></div>
+              </div>
+            </dl>
+            <dl class="item__wrap">
+              <div class="item_img"><img src="/assets/images/t_keita.png"></div>
+              <div class="item_text">
+                <div class="name">Keita Nakata</div>
+                <div class="title">VitalDataAnalyst</div>
+                <div class="role"><span class="lang_en">Responsible for data analysis, report generation, and web application interface /</span><span class="lang_jp">データ解析やレポートの作成、Webアプリケーションのインターフェイスを担当</span></div>
+              </div>
+            </dl>
+          </div>
         </div>
-    </section>
-
-    <section id="team">
-        <h1>Our Team</h1>
-        <h2>Our Experienced Team</h2>
-        <div class="team-member">
-            <img src="./img/mizu.png" alt="Haruo Mizutani" width="150">
-            <p><strong>Haruo Mizutani</strong></p>
-            <p>TeamLead</p>
-            <p><strong>水谷治央</strong></p>
-            <p>チームリーダ</p>
+      </section>
+      <section class="get-starting" id="mission">
+        <div class="mw__wrap">
+          <h2 class="section__head"><span class="main">Mission &amp; Impact</span><span class="sub">未来の医療をつくる「デジタルリモートヘルス基盤」</span></h2>
+          <div class="fig_wrap">
+            <picture>
+              <source srcset="/assets/images/mission_fig.jpg" media="(max-width: 768px)" type="image/png"><img src="/assets/images/mission_fig.jpg">
+            </picture>
+          </div>
+          <div class="inner__wrap">
+            <h3>Become the bedrock for remote healthcare</h3>
+            <p class="section__text lang_en">CHRO+ aims to build a new digital health infrastructure through medical grade wearables and data analysis infrastructure to expand DCTs, solve medical issues, and enrich people's lives.</p>
+            <ul class="section__def lang_en">
+              <li><span class="strong">Streamlining medical resources:</span><span>Telemonitoring makes better use of human resources.</span></li>
+              <li><span class="strong">Reduction of regional disparities:</span><span>Equal healthcare services regardless of where you live.</span></li>
+              <li><span class="strong">Facilitate efficient medical experiments:</span><span>Accelerate health solutions through rapid data collection.</span></li>
+              <li><span class="strong">Reducing the burden on subjects:</span><span>Improving quality of life through treatment in the living area.</span></li>
+            </ul>
+          </div>
+          <div class="inner__wrap">
+            <h3>デジタルリモートヘルス基盤の実現</h3>
+            <p class="section__text lang_jp">CHRO+は、医療グレードのウェアラブルとデータ解析基盤を通じて、新たなデジタルヘルス基盤を構築し、DCTsを広げ、医療課題の解決と豊かな暮らしの実現を目指します。</p>
+            <ul class="section__def lang_jp">
+              <li><span class="strong">医療リソースの効率化:</span><span>遠隔モニタリングで人的リソースを有効活用</span></li>
+              <li><span class="strong">地域格差の是正:</span><span>どこに住んでいても平等な医療サービスを提供</span></li>
+              <li><span class="strong">効率的な医療実験の促進:</span><span>迅速なデータ収集により健康ソリューションの加速</span></li>
+              <li><span class="strong">被験者負担の軽減:</span><span>生活圏での治療でQOL向上</span></li>
+            </ul>
+          </div>
         </div>
-        <div class="team-member">
-            <img src="./img/sta.png" alt="Sutashu" width="100">
-            <p><strong>Sutashu</strong></p>
-            <p>DataScientist</p>
-            <p><strong>朝永スタッシュ</strong></p>
-            <p>データサイエンティスト</p>
+      </section>
+      <section class="contact bg_gray">
+        <div class="mw__wrap">
+          <h2 class="section__head"><span class="main">Contact, Get Involved</span><span class="sub">お問い合わせ &amp; パートナー募集</span></h2>
+          <div class="inner__wrap">
+            <p class="section__text lang_en">We are looking for a wide range of partners for questions about CHRO+ services and projects, as well as for joint research and investment considerations. Please feel free to contact us.</p>
+            <p class="section__text lang_jp">CHRO+ のサービスやプロジェクトに関するご質問、共同研究や投資検討など、幅広くパートナーを募集しています。ぜひお気軽にお問い合わせください。</p>
+          </div>
+          <h3 class="section__sub"><span class="main">Open Positions</span><span class="sub">募集ポジション</span></h3>
+          <div class="items__wrap">
+            <div class="item_text">
+              <div class="title">Business Development Executive</div>
+              <div class="role"><span class="lang_en">B2B sales and partnership building in the healthcare sector /</span><span class="lang_jp">ヘルスケア分野でのB2B営業・パートナーシップ構築</span></div>
+            </div>
+            <div class="item_text">
+              <div class="title">Clinical Expert (MD)</div>
+              <div class="role"><span class="lang_en">Supervise clinical trials and research design /</span><span class="lang_jp">臨床試験・研究設計を監修</span></div>
+            </div>
+          </div>
+          <div class="all_item_link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfLuNb6XW_lUA0YKwwI6ph2S5FMnAgfRKzaWxLSGQwmAs0cjQ/viewform" target="_blank">Contact Us ↗</a></div>
         </div>
-        <div class="team-member">
-            <img src="./img/abe.png" alt="Takuya Abe" width="100">
-            <p><strong>Takuya Abe</strong></p>
-            <p>ServiceDesigner</p>
-            <p><strong>阿部琢哉</strong></p>
-            <p>サービスデザイナ</p>
-        </div>
-        <div class="team-member">
-            <img src="./img/matsu.png" alt="Katsuhito Matsushima" width="100">
-            <p><strong>Katsuhito Matsushima</strong></p>
-            <p>FullstackEngineer</p>
-            <p><strong>松嶋克仁</strong></p>
-            <p>フルスタックエンジニア</p>
-        </div>
-        <div class="team-member">
-            <img src="./img/naka.png" alt="Keita Nakata" width="100">
-            <p><strong>Keita Nakata</strong></p>
-            <p>VitalDataAnalyst</p>
-            <p><strong>中田継太</strong></p>
-            <p>データエンジニア</p>
-        </div>
-        <h2>Join Our Team</h2>
-        <div class="team-member">
-            <p><strong>Business Development Executive</strong></p>
-            <p>Experienced in healthcare partnerships and B2B sales</p>
-        </div>
-        <div class="team-member">
-            <p><strong>Clinical Expert</strong></p>
-            <p>M.D. for overseeing clinical trials and clinical research</p>
-        </div>
-        <h2>求人</h2>
-        <div class="team-member">
-            <p><strong>事業開発担当</strong></p>
-            <p>医療分野でのパートナーシップ構築および企業間取引の豊富な経験を持つ方</p>
-        </div>
-        <div class="team-member">
-            <p><strong>臨床専門家</strong></p>
-            <p>臨床試験および臨床研究を監督するための医学博士（M.D.）資格を持つ方</p>
-        </div>
-    </section>
-    <section id="vision">
-        <h1>Our Vision</h1>
-        <img src="./img/Vision.png" alt="Service Plan Image" width="100%">
-    </section>
-    <section id="contact">
-        <h1>Contact Us</h1>
-        <p>If you have any questions or comments, feel free to contact us using the methods below.</p>
-        <p>ご質問やご要望がございましたら、以下のフォームからお問い合わせください。</p>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLuNb6XW_lUA0YKwwI6ph2S5FMnAgfRKzaWxLSGQwmAs0cjQ/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 CHRO+. All rights reserved.</p>
+      </section>
+    </div>
+    <div class="prefooter"></div>
+    <footer class="footer">
+      <div class="mw__wrap">
+        <div class="flex"><small>&copy;2024 CHRO+</small></div>
+      </div>
     </footer>
+  </body>
 
-    <script src="./script.js"></script>
-</body>
 </html>
