@@ -1212,7 +1212,7 @@ body {
   height: 90vh;
   min-height: 630px;
   width: 100%;
-  background-image: url("/assets/images/xhro_4ch_visual.jpg");
+  background-image: url("../assets/images/xhro_4ch_visual.jpg");
   background-size: cover;
   background-position: 50% 50%;
 }
